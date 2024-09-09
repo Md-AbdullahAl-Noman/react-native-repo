@@ -1,10 +1,12 @@
 import { View, Text } from 'react-native'
 import React from 'react'
+import Comptext from './component/Comptext'
 
 const Index = () => {
   return (
     <View>
-      <Text>Welcome to the src and inde</Text>
+      <Text className="bg-red-500">Welcome to the src and index</Text>
+      <Comptext/>
     </View>
   )
 }
